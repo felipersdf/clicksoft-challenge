@@ -1,5 +1,5 @@
 import { Container, Header, Title, Form, Error } from '../styles/home';
-import { UserCard, UserInfo, Avatar } from '../styles/UserCard';
+import { UserCard, UserInfo, Avatar } from '../styles/userCard';
 import { FiSearch } from 'react-icons/fi';
 import { useUser } from '../src/context/UserContext';
 import Link from 'next/link';

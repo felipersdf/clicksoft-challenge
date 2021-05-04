@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi';
 import { api } from '../../src/services/api';
 
-import { Header, UserInfo, Repository } from './styles';
+import { Header, UserInfo, Repository } from '../../styles/users';
 
 interface Repository {
   id: string;
