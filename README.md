@@ -14,6 +14,10 @@ Desafio para vaga de front-end feito pela ClickSoft.
     <img alt="Made by Felipe Rodrigues" src="https://img.shields.io/badge/made%20by-Felipe Rodrigues-%2304D361">
   </a>
 
+  <a href="https://github.com/felipersdf">
+    <img alt="Made by Felipe Rodrigues" src="https://api.netlify.com/api/v1/badges/6750bda5-d7c9-4c17-be98-0c0d619b1f4b/deploy-status">
+  </a>
+
 </p>
 <div align="center">
   <p align="center">
@@ -43,17 +47,17 @@ Estas foram as tecnologias utilizadas nesse projeto:
 
 <div align="center">
   <p> Página Inicial </p>
-  <img src=".github/home.png" width="360px" />
+  <img src=".github/home.png" width="480px" />
 
 ---
 
  <p>Pagina após a busca realizada</p>
- <img src=".github/search.png" width="360px" />
+ <img src=".github/search.png" width="480px" />
 
 ---
 
  <p>Página de um dev específico</p>
- <img src=".github/repos.png" width="360px" />
+ <img src=".github/repos.png" width="480px" />
 </div>
 
 ---
