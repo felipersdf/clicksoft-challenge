@@ -1,34 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div aling="center">
+<p align="center">🔎 <strong>HUBusca</strong> 
+Desafio para vaga de front-end feito pela ClickSoft.
+</div>
+<p align="center">
 
-## Getting Started
+  <a href="https://github.com/felipersdf/podcastr/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/felipersdf/clicksoft-challenge?color=%2304D361">
+  </a>
 
-First, run the development server:
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/felipersdf/clicksoft-challenge?color=%2304D361">
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+  <a href="https://github.com/felipersdf">
+    <img alt="Made by Felipe Rodrigues" src="https://img.shields.io/badge/made%20by-Felipe Rodrigues-%2304D361">
+  </a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</p>
+<div align="center">
+  <p align="center">
+    <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#testando-a-aplicação">Testando a aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#layout-da-aplicação">Layout da aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  </p>
+</div>
+<hr />
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## :bookmark: Sobre
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Um wep-app que tem como objetivo ter mais facilidade e rapidez nas buscas de devs pelo github.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🚀 Tecnologias
 
-## Learn More
+Estas foram as tecnologias utilizadas nesse projeto:
 
-To learn more about Next.js, take a look at the following resources:
+- ⚛️ [TypeScript](https://www.typescriptlang.org/)
+- ⚛️ [React JS](https://reactjs.org/)
+- ⚛️ [NextJS](https://nextjs.org/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🎨 Layout da aplicação
 
-## Deploy on Vercel
+<div align="center">
+  <p> Página Inicial </p>
+  <img src=".github/home.png" width="360px" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ <p>Pagina após a busca realizada</p>
+ <img src=".github/search.png" width="360px" />
+
+---
+
+ <p>Página de um dev específico</p>
+ <img src=".github/repos.png" width="360px" />
+</div>
+
+---
+
+## 🧭 Testando a aplicação
+
+Você pode acessar a aplicação e testá-la através desse link: [HUBuca](https://angry-brown-be2be4.netlify.app/)
+
+---
+
+Made by [Felipe Rodrigues](http://github.com/feliprsdf)
