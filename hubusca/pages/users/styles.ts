@@ -59,17 +59,18 @@ export const UserInfo = styled.div`
 
 export const Repository = styled.div`
   margin-left: 160px;
+  margin-top: 12px;
   width: 70%;
   display: flex;
 
   a {
-    background: #fff;
+    display: flex;
+    align-items: center;
+    background: var(--shape);
     border-radius: 5px;
     width: 100%;
     padding: 20px;
     text-decoration: none;
-    display: flex;
-    align-items: center;
     color: var(--text-title);
 
     transition: transform 0.2s;
@@ -82,16 +83,18 @@ export const Repository = styled.div`
       font-size: 16px;
     }
 
-    & + a {
-      margin-top: 16px;
-    }
-
     &:hover {
       transform: translateX(10px);
     }
+
+    svg {
+      margin-left: auto;
+      color: #cbcdd6;
+    }
   }
   ul {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     list-style: none;
     width: 60%;
 
@@ -104,19 +107,12 @@ export const Repository = styled.div`
       strong {
         font-size: 1rem;
       }
-
-      &:first-child {
-        display: block;
-      }
     }
+
     p {
       font-size: 16px;
       color: #a8a8b3;
       margin-top: 4px;
-    }
-    svg {
-      margin-left: auto;
-      color: #cbcdd6;
     }
   }
 `;

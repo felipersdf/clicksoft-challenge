@@ -12,6 +12,17 @@ export const Container = styled.div`
   margin: 4rem 8rem;
 `;
 
+export const Header = styled.div`
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-left: 60px;
+    height: 48px;
+    width: 320px;
+  }
+`;
+
 export const Title = styled.h1`
   max-width: 450px;
   line-height: 6rem;

@@ -9,7 +9,6 @@ export const GlobalStyle = createGlobalStyle`
     --blue-light: #6933ff;
     --text-title: #363f5f;
     --text-body: #969cb3;
-    --background: #f0f2f5;
     --shape: #ffffff;
   }
   * {
@@ -26,8 +25,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body {
-    background: #F0F0F5;
-    /* url('/clickSoftLogo.svg') no-repeat 70% top; */
+    background: #F0F0F5 url('/background.svg') no-repeat 70% fixed; 
     -webkit-font-smoothing: antialiased;
 
   }

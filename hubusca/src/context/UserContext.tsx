@@ -13,9 +13,6 @@ interface User {
   avatar_url: string;
   login: string;
   location: string;
-  followers: number;
-  public_repos: number;
-  owner_repos: number;
 }
 
 interface UserContextData {
@@ -45,6 +42,13 @@ export function UserContextProvider({ children }: UserContextProviderProps) {
     event.preventDefault();
     if (!newUser) {
       setInputError('Digite o login de um usuário');
+      return;
+    }
+
+    const userExists = users.find((user) => user.id === users[user.id]);
+
+    if (userExists) {
+      setInputError('Esse usuário já existe');
       return;
     }
 
